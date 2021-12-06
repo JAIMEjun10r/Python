@@ -12,9 +12,11 @@ pyautogui.write('gmail.com')
 sleep(1)
 pyautogui.press('enter')
 sleep(0.8)
+#Aqui o ponteiro do mouse se dirige ao botão de + na lateral do google, para adicionar uma nova aba
 pyautogui.moveTo(332, 16)
 sleep(1)
 pyautogui.mouseDown()
+#serve para clicar e manter pressionado
 sleep(0.5)
 pyautogui.moveTo(303, 66)
 pyautogui.mouseUp()
